@@ -86,11 +86,29 @@ text-align: left;
     margin-bottom: 20px;
 }
 
+/* company relates styles */
+
+.company-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+}
+
 
 @media screen and (max-width:576px) {
+    section{
+        padding: 12px 12px;
+    }
     nav, .banner-container{
         flex-direction: column-reverse;
         padding: 12px  12px;
+        margin-top: 50px;
+    }
+    .company-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 12px 12px;
+        gap: 30px;
         margin-top: 50px;
     }
     .banner-content{
