@@ -66,6 +66,12 @@ nav >ul >li >a{
 }
 
 /* banner related style */
+.banner-img{
+    background: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 .banner-container{
     display: flex;
     justify-content: space-around;
